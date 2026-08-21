@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- AutoCAD / Civil 3D ---
+*.dwg
+*.dwl
+*.dwl2
+*.dxf
+*.bak
+*.sv$
+*.ac$
+acad.err
+acad.log
+
+# --- Generated data / GIS outputs ---
+*.sqlite
+*.sqlite3
+*.db
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.png
+*.jpg
+*.jpeg
+
+# --- Office documents (binary, generated reports) ---
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.pdf
+
+# --- Logs / error reports ---
+ErrorReports/
+*.log
+
+# --- Editor / OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- MCP / local machine config (contains local paths) ---
+.agents/
